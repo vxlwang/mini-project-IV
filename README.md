@@ -1,4 +1,4 @@
-# Mini-project IV
+# Mini-project IV - Predicting Loan Eligibility
 
 ### [Assignment](assignment.md)
 
@@ -13,7 +13,7 @@ The purpose of this project is to build a supervised learning model that will pr
 * Applicants who are not self-employed may have a more steady income
 
 ## EDA 
-The amount of income that an applicant or coapplicant earns does not necessarily mean that the loan will be approved or denied. On average, applicants with higher education earn more and they are able to pay back a loan, yet they can still be denied. Other factors can play a role, such as, the number of dependents and credit history.
+The amount of income that an applicant or coapplicant earns does not necessarily mean that the loan will be approved or denied. On average, applicants with higher education earn more and they are able to pay back a loan, yet they can still be denied. Other factors can also play a role in eligibility, such as, the number of dependents and credit history.
 
 
 ## Process
@@ -35,5 +35,5 @@ Currently, the model can be deployed locally. There were issues deploying the mo
 
 ## Future Goals
 * There may be more criteria or relationships that could determine eligibility, but was not explored
-* I could implement more metrics to determine how the model classifies Loan_Status
+* Additional metrics can be used to determine how the model classifies Loan_Status
 * Feature engineering could be implemented to improve predictions
